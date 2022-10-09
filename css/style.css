@@ -1,0 +1,284 @@
+@import url(./f.css);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    background: #151515;
+  
+}
+.header{
+    background: #282828;  
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;   
+    gap: 30px;
+}
+
+.header__wrap{
+    /* display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 30px; */
+
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+gap: 30px;
+}
+
+
+.menu__link{
+    font-family: 'Bold',sans-serif;
+font-size: 20px;
+font-weight: 700;
+line-height: 24px;
+color: #ffffff;
+
+}
+.search{
+    display: flex;
+justify-content: space-between;
+align-items: center;
+gap: 30px;
+
+}
+
+.flex-n{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+img{
+    cursor: pointer;
+}
+
+.gg{
+    display: flex;
+    justify-content: space-between;
+}
+
+.hh{
+    display: flex;
+    gap: 30px;
+}
+.s__wrap{
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        background: url(../img/Header.png) no-repeat;
+        background-size: cover;
+        background-position: center;
+        justify-content: center;
+        flex-direction: column;
+      gap: 20px;
+}
+.s__h{
+    font-family:'One',sans-serif ;
+font-size: 100px;
+font-weight: 400;
+line-height: 75px;
+color:  #FFFFFF;
+
+}
+.btn{
+    padding: 14px 13px 13px 14px;
+    font-family: 'Med',sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: #171718;
+   display: flex;
+   align-items: center;
+   gap: 11px;
+   border-radius: 10px;
+   border: 1px solid transparent;
+}
+
+.eirpods-p {
+    font-family: 'Med';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 27px;
+    color: #FFFFFF;
+    
+}
+
+.eirpods-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    align-items: center;
+    margin-bottom: 50px;
+    gap: 30px;
+}
+
+.about-p-left {
+    font-family: 'Bold',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: right;
+    color: #FFFFFF;
+}
+
+.about-p-right {
+    font-family: 'Bold',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.About-eirpods-grid {
+    justify-items: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+}
+
+.about{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+
+hr {
+    width: 200px;
+}
+
+img {
+    width: 100%;
+}
+
+.img-Iphone {
+    width: 127.5px;
+    height: 167px;
+}
+
+.block-telephone {
+    background: #FFFFFF;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 0px 15px 14px;
+    gap: 20px;
+    transition: all 0.3s ease-out;
+    text-decoration: none;
+}
+
+.block-telephone:hover {
+    transform: translateY(-5px) scale(1.005) translateZ(0);
+}
+
+.Our-products-telephone {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.Our-products-p {
+    font-family: 'Reg',sans-serif; 
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+span {
+    font-family: 'Bold',sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.view-p {
+    font-family: 'Bold';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.view {
+    background: black;
+    padding: 7px 57px 7px 57px;
+    color: white;
+}
+
+img {
+    cursor: pointer;
+}
+
+.about-img {
+    transition: all 0.3s ease-out;
+    text-decoration: none;
+}
+
+
+
+.footer-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+}
+
+.ul-flex {
+    display: flex;
+}
+
+.footer-img {
+    width: 70px;
+    height: 55px;
+}
+
+li {
+    font-family: 'Bold',sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: right;
+   color: #FFFFFF;
+}
+
+.ul-flex {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.container-footer {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+footer {
+    padding: 30px;
+    background: #282828;
+    box-shadow: 0px -4px 20px rgba(0, 0, 0, 0.25);
+    margin-top: 55px;
+}
+@media screen and (max-width:768px) {}
